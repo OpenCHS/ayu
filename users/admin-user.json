@@ -1,0 +1,13 @@
+[
+  {
+    "uuid": "1139f68d-51c1-441a-bd7d-c17f7828225b",
+    "name": "admin@ayu",
+    "password": "password",
+    "email": "openchssupport+ayu+admin@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "461e440c-ffee-4efd-8b3f-46082f334a4a",
+    "operatingIndividualScope": "None",
+    "admin": false,
+    "orgAdmin": true
+  }
+]

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openchs-idi": "github:openchs/openchs-idi#b6c57e051b91ed4bc2634f4f087dba51cc3a01c8"
+    "openchs-idi": "github:openchs/openchs-idi#b6c57e051b91ed4bc2634f4f087dba51cc3a01c8",
+    "rules-config": "github:openchs/rules-config#24cc3d6fba5f7f4e8938f25a732f3594897232c1"
   }
 }
