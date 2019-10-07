@@ -26,7 +26,6 @@ module.exports = IDI.configure(
       operationalEncounterTypes: [],
       operationalPrograms: [],
       subjectTypes: [],
-      operationalSubjectTypes: [],
       users: {
         dev: []
       },
