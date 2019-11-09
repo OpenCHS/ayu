@@ -19,7 +19,8 @@ module.exports = IDI.configure(
         "forms/sdfs.json",
         "forms/Birth Registration.json",
         "forms/test form.json",
-        "forms/Test form123.json"
+        "forms/Test form123.json",
+        "Titlee Enrolment Form.json"
       ],
       formMappings: ["formMappings.json"],
       formDeletions: [],
