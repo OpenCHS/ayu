@@ -1,0 +1,154 @@
+[ {
+  "name" : "A-",
+  "uuid" : "e7324361-d302-4930-9056-ef126dad6177",
+  "dataType" : "NA"
+}, {
+  "name" : "AB-",
+  "uuid" : "d57f8b19-a3c9-480d-a162-d374d5db747c",
+  "dataType" : "NA"
+}, {
+  "name" : "A+",
+  "uuid" : "400e0767-4a95-4946-8045-9d75c9626cf4",
+  "dataType" : "NA"
+}, {
+  "name" : "B-",
+  "uuid" : "e9eee0ad-40c5-4c1a-a014-1ed1c058a37c",
+  "dataType" : "NA"
+}, {
+  "name" : "Cool",
+  "uuid" : "486688a5-45f8-4334-92a4-50d764ada73e",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Amazing",
+    "uuid" : "7507544d-c710-4fec-bb08-880ba28fd60c",
+    "order" : 0.0
+  } ]
+}, {
+  "name" : "O-",
+  "uuid" : "cc847ff6-03df-40cf-abd9-eec4d95d774f",
+  "dataType" : "NA"
+}, {
+  "name" : "AB+",
+  "uuid" : "3b2ec52a-ff89-4831-a6db-2fd8589d894f",
+  "dataType" : "NA"
+}, {
+  "name" : "B+",
+  "uuid" : "9cfe027d-1d3c-4353-a759-e2935631218d",
+  "dataType" : "NA"
+}, {
+  "name" : "O+",
+  "uuid" : "e559e2d2-3ef4-4b18-b042-46b575a7da25",
+  "dataType" : "NA"
+}, {
+  "name" : "Male",
+  "uuid" : "b8d93273-7168-42d1-8688-38bf78a9dcc7",
+  "dataType" : "NA"
+}, {
+  "name" : "Others",
+  "uuid" : "19d9a57e-8eb9-43b7-80bf-754eedf1b429",
+  "dataType" : "NA"
+}, {
+  "name" : "Female",
+  "uuid" : "87321f94-4419-4764-82ef-e8d89b46526e",
+  "dataType" : "NA"
+}, {
+  "name" : "Amazing",
+  "uuid" : "7507544d-c710-4fec-bb08-880ba28fd60c",
+  "dataType" : "NA"
+}, {
+  "name" : "Name",
+  "uuid" : "8120ae97-5a4c-4ba2-a771-d29dc5dd8b14",
+  "dataType" : "Text"
+}, {
+  "name" : "Std",
+  "uuid" : "217669da-aebc-4e7d-88dd-eca95f22e6dc",
+  "dataType" : "Numeric",
+  "lowAbsolute" : 1.0,
+  "highAbsolute" : 12.0
+}, {
+  "name" : "Blood Group",
+  "uuid" : "95e333fd-577d-44ad-a97a-d2faa7a2f05c",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "A+",
+    "uuid" : "400e0767-4a95-4946-8045-9d75c9626cf4",
+    "order" : 0.0
+  }, {
+    "name" : "A-",
+    "uuid" : "e7324361-d302-4930-9056-ef126dad6177",
+    "order" : 1.0
+  }, {
+    "name" : "AB+",
+    "uuid" : "3b2ec52a-ff89-4831-a6db-2fd8589d894f",
+    "order" : 2.0
+  }, {
+    "name" : "AB-",
+    "uuid" : "d57f8b19-a3c9-480d-a162-d374d5db747c",
+    "order" : 3.0
+  }, {
+    "name" : "O+",
+    "uuid" : "e559e2d2-3ef4-4b18-b042-46b575a7da25",
+    "order" : 4.0
+  }, {
+    "name" : "O-",
+    "uuid" : "cc847ff6-03df-40cf-abd9-eec4d95d774f",
+    "order" : 5.0
+  }, {
+    "name" : "B+",
+    "uuid" : "9cfe027d-1d3c-4353-a759-e2935631218d",
+    "order" : 6.0
+  }, {
+    "name" : "B-",
+    "uuid" : "e9eee0ad-40c5-4c1a-a014-1ed1c058a37c",
+    "order" : 7.0
+  }, {
+    "name" : "Cool",
+    "uuid" : "486688a5-45f8-4334-92a4-50d764ada73e",
+    "order" : 8.0
+  } ]
+}, {
+  "name" : "Gender",
+  "uuid" : "24d5475f-5ecc-4e7a-b4d3-3ac0c61f503d",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Female",
+    "uuid" : "87321f94-4419-4764-82ef-e8d89b46526e",
+    "order" : 0.0
+  }, {
+    "name" : "Male",
+    "uuid" : "b8d93273-7168-42d1-8688-38bf78a9dcc7",
+    "order" : 1.0
+  }, {
+    "name" : "Others",
+    "uuid" : "19d9a57e-8eb9-43b7-80bf-754eedf1b429",
+    "order" : 2.0
+  } ]
+}, {
+  "name" : "Age",
+  "uuid" : "6b28d6c4-954d-461b-9e76-cb25214198a8",
+  "dataType" : "Numeric",
+  "lowAbsolute" : 0.0,
+  "highAbsolute" : 90.0,
+  "unit" : "Years"
+}, {
+  "name" : "How cool are you?",
+  "uuid" : "8f30e9b0-f0e5-4308-8e40-f30ca0f697e1",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Cool",
+    "uuid" : "486688a5-45f8-4334-92a4-50d764ada73e",
+    "order" : 0.0
+  }, {
+    "name" : "Std",
+    "uuid" : "217669da-aebc-4e7d-88dd-eca95f22e6dc",
+    "order" : 1.0
+  }, {
+    "name" : "Male",
+    "uuid" : "b8d93273-7168-42d1-8688-38bf78a9dcc7",
+    "order" : 2.0
+  }, {
+    "name" : "Name",
+    "uuid" : "8120ae97-5a4c-4ba2-a771-d29dc5dd8b14",
+    "order" : 3.0
+  } ]
+} ]
