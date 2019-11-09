@@ -1,0 +1,50 @@
+{
+  "name" : "Birth Registration",
+  "uuid" : "ab962435-8c21-4ecb-9785-d1f0f8cd32cc",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "50d1f583-efdf-4f7a-9b86-85fbaa83dd98",
+    "name" : "Basic Details",
+    "displayOrder" : 1.0,
+    "display" : "Basic Details",
+    "formElements" : [ {
+      "name" : "Is child getting registered at Birth",
+      "uuid" : "5ffb2b7b-f9af-4a50-ae1e-a8f07cdba62e",
+      "keyValues" : [ {
+        "key" : "ExcludedAnswers",
+        "value" : [ ]
+      } ],
+      "concept" : {
+        "uuid" : "01cf3817-37d8-4e7e-a116-c4c4a389994e"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : false
+    }, {
+      "name" : "Current Weight",
+      "uuid" : "6bcae9f3-b733-4e37-a752-6812146d1e4f",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "47f60bfb-af4a-4612-a7f7-6b94165121b4"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : false
+    }, {
+      "name" : "Birth Weight",
+      "uuid" : "02643d9b-92e0-4746-aa53-0efd7bd60048",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "a0a128ae-62c3-4814-8a2f-510ef1857c4f"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "voided" : false
+}

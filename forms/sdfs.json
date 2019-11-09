@@ -1,1 +1,25 @@
-{"name":"sdfs","uuid":"fbedc462-3787-4563-bf88-7228ed3cfb11","formType":"Encounter","formElementGroups":[],"voided":false}
+{
+  "name" : "sdfs",
+  "uuid" : "fbedc462-3787-4563-bf88-7228ed3cfb11",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "4cee03aa-1e95-4cbd-86d1-47a84ab2e6c5",
+    "name" : "Personal Details",
+    "displayOrder" : 1.0,
+    "display" : "Personal Details",
+    "formElements" : [ {
+      "name" : "Blood group",
+      "uuid" : "f00122da-4aaf-4e50-99d0-addfd73ddaab",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "95e333fd-577d-44ad-a97a-d2faa7a2f05c"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "voided" : false
+}

@@ -1,1 +1,13 @@
-[{"name":"Location","uuid":"73a55a46-497e-4c17-9f61-0a95a14f347b","voided":false},{"name":"Individual (voided~12)","uuid":"267f2bb9-46fa-406f-953e-342ae69a5e58","voided":true},{"name":"Individual","uuid":"43d0800a-4f62-415b-920f-06c41432f73a","voided":false}]
+[ {
+  "name" : "Location",
+  "uuid" : "73a55a46-497e-4c17-9f61-0a95a14f347b",
+  "voided" : false
+}, {
+  "name" : "Individual (voided~12)",
+  "uuid" : "267f2bb9-46fa-406f-953e-342ae69a5e58",
+  "voided" : true
+}, {
+  "name" : "Individual",
+  "uuid" : "43d0800a-4f62-415b-920f-06c41432f73a",
+  "voided" : false
+} ]

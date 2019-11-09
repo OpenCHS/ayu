@@ -1,1 +1,6 @@
-[{"name":"Mission Titlee","uuid":"531c41c7-fb09-4175-918e-f83b1fe6f2e1","colour":"#55a2b1","voided":false}]
+[ {
+  "name" : "Mission Titlee",
+  "uuid" : "531c41c7-fb09-4175-918e-f83b1fe6f2e1",
+  "colour" : "#55a2b1",
+  "voided" : false
+} ]

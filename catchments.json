@@ -1,1 +1,12 @@
-{"organisation":"Ayu","catchments":[{"name":"Gandhi Nagar","uuid":"ce187386-0e63-4f36-a3f0-94ea1dea2d0e","type":"District","locations":[{"uuid":"fd1125be-8e1b-4f9a-ac16-caa1a6bc6a02"}],"voided":false}]}
+{
+  "organisation" : "Ayu",
+  "catchments" : [ {
+    "name" : "Gandhi Nagar",
+    "uuid" : "ce187386-0e63-4f36-a3f0-94ea1dea2d0e",
+    "type" : "District",
+    "locations" : [ {
+      "uuid" : "fd1125be-8e1b-4f9a-ac16-caa1a6bc6a02"
+    } ],
+    "voided" : false
+  } ]
+}

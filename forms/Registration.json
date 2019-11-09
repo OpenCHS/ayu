@@ -1,1 +1,76 @@
-{"name":"Registration","uuid":"128b71f5-2f02-4228-aba9-df2b9cca8638","formType":"IndividualProfile","formElementGroups":[],"voided":false}
+{
+  "name" : "Registration",
+  "uuid" : "128b71f5-2f02-4228-aba9-df2b9cca8638",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "4c70d3db-51b9-45ef-a9ae-2eb322fa406f",
+    "name" : "Basic Details",
+    "displayOrder" : 1.0,
+    "display" : "Basic Details",
+    "formElements" : [ {
+      "name" : "Name of Kid",
+      "uuid" : "aec44991-0050-4959-8490-9a6065686088",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "8120ae97-5a4c-4ba2-a771-d29dc5dd8b14"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : false
+    }, {
+      "name" : "Age of Kid",
+      "uuid" : "e9bca379-5233-4dce-8b82-25a87a69aa7d",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "6b28d6c4-954d-461b-9e76-cb25214198a8"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : false
+    }, {
+      "name" : "Gender of Kid",
+      "uuid" : "a3f79cd7-509b-4908-b1e1-3d74ee693d0e",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "24d5475f-5ecc-4e7a-b4d3-3ac0c61f503d"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : false
+    }, {
+      "name" : "Std",
+      "uuid" : "73e91c4d-6aac-4691-acde-13811e5c1577",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "217669da-aebc-4e7d-88dd-eca95f22e6dc"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "78704b9a-5dac-45e0-bc9e-57bdaa54e89c",
+    "name" : "Study details",
+    "displayOrder" : 2.0,
+    "display" : "Study details",
+    "formElements" : [ {
+      "name" : "Std",
+      "uuid" : "0508b7cd-04d5-456e-9e12-e526112ce04e",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "217669da-aebc-4e7d-88dd-eca95f22e6dc"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "voided" : false
+}

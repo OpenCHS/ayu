@@ -1,1 +1,35 @@
-{"organisationName":"Ayu","operationalEncounterTypes":[{"uuid":"c657ff2a-5afb-4e47-a6bd-7d41ed9859d2","encounterType":{"uuid":"4ef7735d-0fb0-4aa5-ae56-4d2448faf1c0"},"name":"Titlee Enrolment"},{"uuid":"7dff7094-fe72-4a26-9559-843b65f21a27","encounterType":{"uuid":"b26e8f59-dfe6-4929-ba47-b85d71cf1230"},"name":"Registration"},{"uuid":"860e8e5a-96b9-46c1-a850-10c53e05d28b","encounterType":{"uuid":"038d4fc5-e9a4-4e79-b495-e5b0d51096f8"},"name":"Monthly Followup (voided~101)","voided":true},{"uuid":"bc37c08b-08c0-47b0-9454-4a727ace17ec","encounterType":{"uuid":"61c701da-685a-4e27-8fd9-da220bb7e099"},"name":"Annual Survey "}]}
+{
+  "organisationName" : "Ayu",
+  "operationalEncounterTypes" : [ {
+    "uuid" : "c657ff2a-5afb-4e47-a6bd-7d41ed9859d2",
+    "encounterType" : {
+      "uuid" : "4ef7735d-0fb0-4aa5-ae56-4d2448faf1c0"
+    },
+    "name" : "Titlee Enrolment"
+  }, {
+    "uuid" : "7dff7094-fe72-4a26-9559-843b65f21a27",
+    "encounterType" : {
+      "uuid" : "b26e8f59-dfe6-4929-ba47-b85d71cf1230"
+    },
+    "name" : "Registration"
+  }, {
+    "uuid" : "860e8e5a-96b9-46c1-a850-10c53e05d28b",
+    "encounterType" : {
+      "uuid" : "038d4fc5-e9a4-4e79-b495-e5b0d51096f8"
+    },
+    "name" : "Monthly Followup (voided~101)",
+    "voided" : true
+  }, {
+    "uuid" : "bc37c08b-08c0-47b0-9454-4a727ace17ec",
+    "encounterType" : {
+      "uuid" : "61c701da-685a-4e27-8fd9-da220bb7e099"
+    },
+    "name" : "Annual Survey "
+  }, {
+    "uuid" : "ac4ec668-1248-4d53-9896-487443070ecc",
+    "encounterType" : {
+      "uuid" : "7c750271-9eba-46f7-b83d-7385dc01d9b5"
+    },
+    "name" : "Birth Registration"
+  } ]
+}

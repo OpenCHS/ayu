@@ -1,1 +1,7 @@
-{"name":"Baseline","uuid":"87a42229-2b55-48fb-88d5-6579e46d4bae","formType":"ProgramEncounter","formElementGroups":[],"voided":false}
+{
+  "name" : "Baseline",
+  "uuid" : "87a42229-2b55-48fb-88d5-6579e46d4bae",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ ],
+  "voided" : false
+}
