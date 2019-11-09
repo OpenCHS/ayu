@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "e147fa26-ed26-405e-8dc3-f78bf568e1a3",
+    "name": "dev@ayu",
+    "password": "password",
+    "email": "openchssupport+ayu+test+1@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "461e440c-ffee-4efd-8b3f-46082f334a4a",
+    "catchmentUUID": "ce187386-0e63-4f36-a3f0-94ea1dea2d0e",
+    "operatingIndividualScope": "ByCatchment",
+    "isAdmin": false,
+    "isOrgAdmin": false,
+    "settings": {
+      "trackLocation": false,
+      "locale": "en"
+    }
+  }
+]

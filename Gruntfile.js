@@ -36,7 +36,7 @@ module.exports = IDI.configure(
       subjectTypes: ["subjectTypes.json"],
       operationalSubjectTypes: ["operationalSubjectTypes.json"],
       users: {
-        dev: []
+        dev: ["users/dev-user.json"]
       },
       rules: [],
       organisationSql: [
