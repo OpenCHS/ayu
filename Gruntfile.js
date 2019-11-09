@@ -13,7 +13,14 @@ module.exports = IDI.configure(
         dev: ["users/admin-user.json"],
         prerelease: ["users/staging-admin-user.json"]
       },
-      forms: ["forms/Baseline.json", "forms/Registration.json", "forms/sdfs.json"],
+      forms: [
+        "forms/Baseline.json",
+        "forms/Registration.json",
+        "forms/sdfs.json",
+        "forms/Birth Registration.json",
+        "forms/test form.json",
+        "forms/Test form123.json"
+      ],
       formMappings: ["formMappings.json"],
       formDeletions: [],
       formAdditions: [],
