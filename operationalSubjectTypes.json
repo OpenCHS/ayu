@@ -1,11 +1,11 @@
 {
   "organisationUUID" : "461e440c-ffee-4efd-8b3f-46082f334a4a",
   "operationalSubjectTypes" : [ {
-    "uuid" : "386ca5ca-226a-4e0c-abe0-ff8262d725f1",
+    "uuid" : "effe1be3-24a8-4e9e-9c34-4bee4f83e340",
     "subjectType" : {
-      "uuid" : "73a55a46-497e-4c17-9f61-0a95a14f347b"
+      "uuid" : "43d0800a-4f62-415b-920f-06c41432f73a"
     },
-    "name" : "Location"
+    "name" : "Individual"
   }, {
     "uuid" : "1bd03157-a655-468c-8e7a-f83799051811",
     "subjectType" : {
@@ -14,10 +14,10 @@
     "name" : "Individual (voided~21)",
     "voided" : true
   }, {
-    "uuid" : "effe1be3-24a8-4e9e-9c34-4bee4f83e340",
+    "uuid" : "386ca5ca-226a-4e0c-abe0-ff8262d725f1",
     "subjectType" : {
-      "uuid" : "43d0800a-4f62-415b-920f-06c41432f73a"
+      "uuid" : "73a55a46-497e-4c17-9f61-0a95a14f347b"
     },
-    "name" : "Individual"
+    "name" : "Location"
   } ]
 }
