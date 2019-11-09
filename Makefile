@@ -4,3 +4,6 @@ deps:; npm i -g grunt; npm install
 #######################################
 
 org_admin_name=admin@ayu
+
+create_genders:
+	psql -d openchs < create_gender.sql
