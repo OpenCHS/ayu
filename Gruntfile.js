@@ -42,6 +42,10 @@ module.exports = IDI.configure(
       rules: [],
       organisationSql: [
         /* "create_organisation.sql"*/
+      ],
+      "organisationConfig": ["organisationConfig.json"],
+      "translations": [
+        "translations/en.json"
       ]
     }
   },

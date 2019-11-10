@@ -1,7 +1,7 @@
 {
   "uuid" : "33b9e54c-2336-4c91-9b52-0e098e8733e1",
   "settings" : {
-    "languages" : [ "en", "hi_IN", "be_IN" ],
+    "languages" : [ "en"],
     "searchFilters" : [ ],
     "myDashboardFilters" : [ ]
   }
