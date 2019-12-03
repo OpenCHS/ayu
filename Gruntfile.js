@@ -39,7 +39,7 @@ module.exports = IDI.configure(
       users: {
         dev: ["users/dev-user.json"]
       },
-      rules: [],
+      rules: ["./rules.js"],
       organisationSql: [
         /* "create_organisation.sql"*/
       ],
