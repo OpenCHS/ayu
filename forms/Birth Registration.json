@@ -32,7 +32,7 @@
       "type" : "SingleSelect",
       "mandatory" : false,
       "voided" : false,
-      "rule": "'use strict'; \n            function rule({params, imports}) {\n                const programEnrolment = params.entity;\n                const formElement = params.formElement;\n                const statusBuilder = new imports.FormElementStatusBuilder({programEnrolment, formElement});\n                statusBuilder.show().when.valueInEnrolment('Is child getting registered at Birth').containsAnswerConceptName(\"No\");\n                return statusBuilder.build();\n            };\n            rule;"
+      "rule": "'use strict'; \n            function rule({params, imports}) {\n                const programEnrolment = params.entity;\n                const formElement = params.formElement;\n                const statusBuilder = new imports.rulesConfig.FormElementStatusBuilder({programEnrolment, formElement});\n                statusBuilder.show().when.valueInEnrolment('Is child getting registered at Birth').containsAnswerConceptName(\"No\");\n                return statusBuilder.build();\n            };\n            rule;"
     }, {
       "name" : "Birth Weight",
       "uuid" : "02643d9b-92e0-4746-aa53-0efd7bd60048",
@@ -44,7 +44,7 @@
       "type" : "SingleSelect",
       "mandatory" : false,
       "voided" : false,
-      "rule": "'use strict'; \n            function rule({params, imports}) {\n                const programEnrolment = params.entity;\n                const formElement = params.formElement;\n                const statusBuilder = new imports.FormElementStatusBuilder({programEnrolment, formElement});\n                statusBuilder.show().when.valueInEnrolment('Is child getting registered at Birth').containsAnswerConceptName(\"Yes\");\n                return statusBuilder.build();\n            };\n            rule;"
+      "rule": "'use strict'; \n            function rule({params, imports}) {\n                const programEnrolment = params.entity;\n                const formElement = params.formElement;\n                const statusBuilder = new imports.rulesConfig.FormElementStatusBuilder({programEnrolment, formElement});\n                statusBuilder.show().when.valueInEnrolment('Is child getting registered at Birth').containsAnswerConceptName(\"Yes\");\n                return statusBuilder.build();\n            };\n            rule;"
     } ],
     "voided" : false
   } ],
