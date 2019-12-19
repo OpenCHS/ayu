@@ -1,25 +1,29 @@
 {
-  "name" : "Titlee Enrolment Form",
-  "uuid" : "d8bd0729-4eed-453b-be46-24586dd9fd50",
-  "formType" : "ProgramEnrolment",
-  "formElementGroups" : [ {
-    "uuid" : "f328e3be-91f1-43fd-81a3-1b12a4b8fb2f",
-    "name" : "Basic Details",
-    "displayOrder" : 1.0,
-    "display" : "Basic Details",
-    "formElements" : [ {
-      "name" : "Name",
-      "uuid" : "17473ca2-d639-447d-a9ce-730c5e49ad4a",
-      "keyValues" : [ ],
-      "concept" : {
-        "uuid" : "8120ae97-5a4c-4ba2-a771-d29dc5dd8b14"
-      },
-      "displayOrder" : 1.0,
-      "type" : "SingleSelect",
-      "mandatory" : true,
-      "voided" : false
-    } ],
-    "voided" : false
-  } ],
-  "voided" : false
+  "name": "Titlee Enrolment Form",
+  "uuid": "d8bd0729-4eed-453b-be46-24586dd9fd50",
+  "formType": "ProgramEnrolment",
+  "formElementGroups": [
+    {
+      "uuid": "f328e3be-91f1-43fd-81a3-1b12a4b8fb2f",
+      "name": "Basic Details",
+      "displayOrder": 1.0,
+      "display": "Basic Details",
+      "formElements": [
+        {
+          "name": "Name",
+          "uuid": "17473ca2-d639-447d-a9ce-730c5e49ad4a",
+          "keyValues": [],
+          "concept": {
+            "uuid": "8120ae97-5a4c-4ba2-a771-d29dc5dd8b14"
+          },
+          "displayOrder": 1.0,
+          "type": "SingleSelect",
+          "mandatory": true
+        }
+      ]
+    }
+  ],
+  "decisionRule": "",
+  "visitScheduleRule": "(\"use strict\");\n({ params, imports }) => {\n   const programEnrolment = params.entity;\n   const scheduleBuilder = new imports.rulesConfig.VisitScheduleBuilder({ programEnrolment });\n   scheduleBuilder\n       .add({\n           name: \"First Birth Registration Visit\",\n           encounterType: \"Birth Registration\",\n           earliestDate: programEnrolment.enrolmentDateTime,\n           maxDate: programEnrolment.enrolmentDateTime\n       })\n       .whenItem(programEnrolment.getEncounters(true).length)\n       .equals(0);\n   return scheduleBuilder.getAll();\n};",
+  "validationRule": ""
 }
