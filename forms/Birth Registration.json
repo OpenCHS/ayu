@@ -48,22 +48,6 @@
           "type": "SingleSelect",
           "rule": "'use strict'; \n            function rule({params, imports}) {\n                const programEnrolment = params.entity;\n                const formElement = params.formElement;\n                const statusBuilder = new imports.rulesConfig.FormElementStatusBuilder({programEnrolment, formElement});\n                statusBuilder.show().when.valueInEnrolment('Is child getting registered at Birth').containsAnswerConceptName(\"Yes\");\n                return statusBuilder.build();\n            };\n            rule;",
           "mandatory": false
-        },
-        {
-          "name": "date",
-          "uuid": "38319e2c-3be0-4141-a4f1-cfb24112ceda",
-          "keyValues": [
-            {
-              "key": "datePickerMode",
-              "value": "Calender"
-            }
-          ],
-          "concept": {
-            "uuid": "dcfee463-55c2-4bd2-a098-7522772d34ee"
-          },
-          "displayOrder": 4.0,
-          "type": "SingleSelect",
-          "mandatory": false
         }
       ]
     }
