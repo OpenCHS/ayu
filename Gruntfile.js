@@ -14,20 +14,24 @@ module.exports = IDI.configure(
         prerelease: ["users/staging-admin-user.json"]
       },
       forms: [
-        "forms/Baseline.json",
-        "forms/Registration.json",
-        "forms/sdfs.json",
-        "forms/Birth Registration.json",
-        "forms/test form.json",
-        "forms/Test form123.json",
-        "forms/Titlee Enrolment Form.json"
+        // "forms/Baseline.json",
+        // "forms/Registration.json",
+        // "forms/sdfs.json",
+        // "forms/Birth Registration.json",
+        // "forms/test form.json",
+        // "forms/Test form123.json",
+        // "forms/Titlee Enrolment Form.json",
+        "forms/checklistForm.json"        
       ],
       formMappings: ["formMappings.json"],
       formDeletions: [],
       formAdditions: [],
       catchments: ["catchments.json"],
-      checklistDetails: [],
-      concepts: ["concepts.json"],
+      checklistDetails: ["checklist.json"],
+      concepts: ["concepts.json",
+                  "checklistConcepts.json",
+                  "vaccinationConcepts.json"
+              ],
       addressLevelTypes: ["addressLevelTypes.json"],
       locations: ["locations.json"],
       programs: ["programs.json"],
